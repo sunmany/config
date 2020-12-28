@@ -1,4 +1,15 @@
+---
+spring:
+  profiles: item1
 
+server:
+  port: 8001
+---
+spring:
+  profiles: item2
+server:
+  port: 8002
+---
 spring:
   application:
     name: item-service
@@ -12,14 +23,4 @@ eureka:
       defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
 
 
----
-spring:
-  profiles: item1
 
-server:
-  port: 8001
----
-spring:
-  profiles: item2
-server:
-  port: 8002
