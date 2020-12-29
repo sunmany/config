@@ -1,15 +1,15 @@
----
-spring:
-  profiles: item1
-
-server:
-  port: 8001
----
-spring:
-  profiles: item2
-server:
-  port: 8002
----
+#---
+#spring:
+#  profiles: item1
+#
+#server:
+#  port: 8001
+#---
+#spring:
+#  profiles: item2
+#server:
+#  port: 8002
+#---
 spring:
   application:
     name: item-service
