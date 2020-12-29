@@ -1,6 +1,9 @@
 spring:
   application:
     name: order-service
+  cloud:
+    config:
+      override-none: true
   rabbitmq:
     host: 192.168.253.133
     port: 5672
